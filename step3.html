@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get the summation between 91 and 95</p>
+
+<button onclick="myFunction()">Result</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var startValue=91;
+	var endValue=95;
+    var i;
+	var sum=0;
+    for(var i=startValue; i<=endValue; i=i+1)
+	{
+	sum=sum+i;
+    }
+    document.getElementById("demo").innerHTML =sum;
+}
+</script>
+
+</body>
+</html>
+
+
